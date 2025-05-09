@@ -56,9 +56,3 @@ No SCRUM, o desenvolvimento é dividido em **Sprints**, geralmente com duração
 #### **5. Sprint Review e Retrospectiva**
 - No fim da Sprint, você apresenta os resultados dos testes e valida se os requisitos foram atendidos.
 - Na retrospectiva, analisa o que pode ser melhorado para a próxima Sprint.
-
----
-
-Esse fluxo garante que a API seja testada de forma iterativa, evitando grandes problemas no final do desenvolvimento. 🚀
-
-Se precisar de mais detalhes sobre ferramentas ou melhores práticas, só me chamar! 😃
