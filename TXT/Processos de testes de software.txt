@@ -1,0 +1,64 @@
+Processos de testes de software
+
+### **Etapas do Processo de Teste**
+#### **1. Análise da Documentação e Requisitos Funcionais**
+- Revise os requisitos funcionais fornecidos pela equipe de produto e desenvolvimento.
+- Confirme que cada requisito está claro e testável. Se houver ambiguidades, discuta com a equipe para obter esclarecimentos.
+- Priorize os requisitos mais críticos para os usuários finais.
+
+#### **2. Criação de Casos de Teste**
+- Para cada requisito, escreva **casos de teste**, definindo:
+  - **Título**: O que será testado?
+  - **Pré-condições**: Qual o estado do sistema antes do teste?
+  - **Passos**: Como executar o teste?
+  - **Dados de entrada**: Quais valores serão enviados?
+  - **Resultado esperado**: O que a API deve retornar?
+- Utilize técnicas de **Particionamento de Equivalência** e **Análise de Valor Limite** para cobrir diferentes cenários.
+
+#### **3. Execução dos Testes**
+- Aguarde a disponibilização da API para testes.
+- Utilize ferramentas como **Postman**, **Rest-Assured** ou **JMeter** para enviar requisições e validar respostas.
+- Teste diferentes cenários, incluindo entradas válidas e inválidas.
+- Registre os resultados e possíveis defeitos encontrados.
+
+#### **4. Reporte de Defeitos**
+- Se um teste falhar, documente o problema, incluindo:
+  - **Descrição do erro**
+  - **Passos para reprodução**
+  - **Dados de entrada**
+  - **Resposta inesperada**
+- Utilize sistemas de gerenciamento de defeitos como **JIRA**, **Trello**, ou **Azure DevOps**.
+
+#### **5. Reteste e Validação**
+- Após correções pela equipe de desenvolvimento, execute **retestes** para garantir que os problemas foram resolvidos.
+- Faça **testes de regressão** para verificar se mudanças não afetaram outras funcionalidades.
+
+---
+
+### **Etapas Dentro de um Cenário SCRUM**
+No SCRUM, o desenvolvimento é dividido em **Sprints**, geralmente com duração de 1 a 4 semanas. Seguem as fases dentro desse método:
+
+#### **1. Planejamento da Sprint**
+- Durante a reunião de planejamento, os requisitos a serem desenvolvidos e testados são definidos.
+- Você participa do planejamento de testes, identificando cenários prioritários.
+
+#### **2. Desenvolvimento e Disponibilização da API**
+- Os desenvolvedores implementam a API conforme os requisitos funcionais definidos.
+- Você pode colaborar para verificar se a API está sendo construída de acordo com as especificações.
+
+#### **3. Execução dos Testes na Sprint**
+- Assim que a API for entregue para testes, você realiza testes funcionais de caixa preta.
+- Defeitos são reportados para serem corrigidos na mesma Sprint.
+
+#### **4. Daily Scrum (Reuniões Diárias)**
+- Você participa das reuniões diárias com a equipe para acompanhar os testes, reportar progresso e discutir bloqueios.
+
+#### **5. Sprint Review e Retrospectiva**
+- No fim da Sprint, você apresenta os resultados dos testes e valida se os requisitos foram atendidos.
+- Na retrospectiva, analisa o que pode ser melhorado para a próxima Sprint.
+
+---
+
+Esse fluxo garante que a API seja testada de forma iterativa, evitando grandes problemas no final do desenvolvimento. 🚀
+
+Se precisar de mais detalhes sobre ferramentas ou melhores práticas, só me chamar! 😃
